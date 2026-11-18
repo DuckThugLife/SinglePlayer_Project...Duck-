@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour
 
 
 
-    private void FixedUpdate()
+    private void Update()
     {
         Vector2 moveInput = _inputHandler.Move;
         Vector2 lookInput = _inputHandler.Look;
@@ -33,7 +33,7 @@ public class PlayerController : MonoBehaviour
 
         MoveCharacter(moveInput);
         Jump(jumpPressed);
-        Look(lookInput);
+        TurnCharacter(lookInput);
     }
 
     private void MoveCharacter(Vector2 moveInput)
@@ -45,9 +45,17 @@ public class PlayerController : MonoBehaviour
         _characterController.Move(move * Time.deltaTime);
     }
 
-    private void Look(Vector2 lookInput)
+    private void TurnCharacter(Vector2 lookInput)
     {
+        if (!turningEnabled) return;
+        Debug.Log("Turn char");
+        float yaw = lookInput.x * mouseSensitivity * Time.deltaTime;
+        transform.Rotate(Vector3.up * yaw);
 
+        pitch -= lookInput.y * mouseSensitivity * Time.deltaTime;
+        pitch = Mathf.Clamp(pitch, pitchMin, pitchMax);
+
+        cameraPivot.localRotation = Quaternion.Euler(pitch, 0f, 0f);
     }
 
     private void Jump(bool jumpPressed)
