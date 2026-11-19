@@ -48,7 +48,6 @@ public class PlayerController : MonoBehaviour
     private void TurnCharacter(Vector2 lookInput)
     {
         if (!turningEnabled) return;
-        Debug.Log("Turn char");
         float yaw = lookInput.x * mouseSensitivity * Time.deltaTime;
         transform.Rotate(Vector3.up * yaw);
 

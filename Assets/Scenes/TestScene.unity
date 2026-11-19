@@ -899,7 +899,6 @@ GameObject:
   - component: {fileID: 516365563}
   - component: {fileID: 516365562}
   - component: {fileID: 516365561}
-  - component: {fileID: 516365560}
   m_Layer: 0
   m_Name: Cube (10)
   m_TagString: Untagged
@@ -922,33 +921,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 293160764}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 45}
---- !u!54 &516365560
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 516365558}
-  serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!65 &516365561
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1039,7 +1011,6 @@ GameObject:
   - component: {fileID: 802386232}
   - component: {fileID: 802386231}
   - component: {fileID: 802386230}
-  - component: {fileID: 802386229}
   m_Layer: 0
   m_Name: Cube (11)
   m_TagString: Untagged
@@ -1062,33 +1033,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 293160764}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 60}
---- !u!54 &802386229
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 802386227}
-  serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!65 &802386230
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1179,7 +1123,6 @@ GameObject:
   - component: {fileID: 831744632}
   - component: {fileID: 831744631}
   - component: {fileID: 831744630}
-  - component: {fileID: 831744629}
   m_Layer: 0
   m_Name: Cube (9)
   m_TagString: Untagged
@@ -1202,33 +1145,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 293160764}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 30}
---- !u!54 &831744629
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 831744627}
-  serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!65 &831744630
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1508,7 +1424,6 @@ GameObject:
   - component: {fileID: 883764660}
   - component: {fileID: 883764659}
   - component: {fileID: 883764658}
-  - component: {fileID: 883764657}
   m_Layer: 0
   m_Name: Cube (8)
   m_TagString: Untagged
@@ -1531,33 +1446,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 293160764}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 30}
---- !u!54 &883764657
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 883764655}
-  serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!65 &883764658
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2525,7 +2413,6 @@ GameObject:
   - component: {fileID: 1959305235}
   - component: {fileID: 1959305234}
   - component: {fileID: 1959305233}
-  - component: {fileID: 1959305232}
   m_Layer: 0
   m_Name: Cube (12)
   m_TagString: Untagged
@@ -2548,33 +2435,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 293160764}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 15}
---- !u!54 &1959305232
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1959305230}
-  serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!65 &1959305233
 BoxCollider:
   m_ObjectHideFlags: 0
